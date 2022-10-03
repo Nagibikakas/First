@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+
+.header {
+	color: #fff;
+	background: #1326CE;
+	padding: 77px 0 176px 0;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.nav {
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mail {
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+	margin-left: auto;
+}
+
+.offer {
+	margin-top: 157px;
+}
+
+.offer__dream {
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 1.329em
+}
+
+.offer__list {
+	display: flex;
+	margin-top: 49px;
+}
+
+.offer__part {
+	display: flex;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 26px;
+}
+
+.offer__friend {
+	text-transform: none;
+	font-weight: 700;
+	font-size: 18px;
+
+}
+
+.offer__can {
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.329em;
+	width: 421px;
+	margin-top: 8px;
+}
+
+.offer__text {
+	background: #0E20BF;
+	width: 499px;
+	padding: 25px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+.section__title {
+	font-weight: 800;
+	font-size: 35px;
+	line-height: 1.42em;
+	margin-top: 128px;
+}
+
+.section__table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 72px;
+}
+
+.section__cell_header {
+	text-transform: uppercase;
+	background: #E8E8E8;
+	padding: 16px 0 17px 0;
+}
+
+.section__cell {
+	width: 25%;
+	padding: 17px 0 18px 0;
+	border: 1px solid #000;
+}
+
+.footer {
+	padding: 128px 0;
+}
+
+.goals__title {
+	font-weight: 800;
+	font-size: 35px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards__item {
+	width: 273px;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	padding: 125px 30px;
+}
+
+.cards__index {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: #3AA629;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.cards__text {
+	margin-top: 16px;
+	width: 213px;
+	text-align: center;
+}
+
+.cards__index_orange {
+	background: #FF8038;
+}
+
+.cards__index_purple {
+	background: #903EF9;
+}
+
+.cards__index_pink {
+	background: #F93E98;
+}
